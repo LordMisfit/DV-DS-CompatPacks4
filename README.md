@@ -4,9 +4,6 @@ DV-DS-CompatPacks ["Aetherius" - Compatiblity Patches for Various mapsets]
 	- Sitnatla [Heretic mapset by ArgonianLord] (loaded as a subfolder)
 	- Starship [Hexen mapset by Hamster Republic Games] (loaded as a subfolder)
 
-- 10xu.pk3 is included for extra 'fun' and can be loaded with any of these or even the non CompatPack games.
-
-
 HOW TO INSTALL / RUN / ETC:
 
  - Important - Make absolutely sure you got DV-DS-ComboPack [@ https://github.com/LordMisfit/DV-DS-ComboPack ] working right before you do anything here. Refer to that repository's README.md file for more information.

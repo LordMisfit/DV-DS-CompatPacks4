@@ -618,7 +618,7 @@ ACTOR LightningRod1 : AetheriusProjectileZSC
 }
 ACTOR LightningRod1Crisis : LightningRod1
 {
-	Damage ((3 * CallACS("CrisisMultiplier")) * random(1,8))
+	Damage ((3 * CrisisMultiplier) * random(1,8))
 	states
 	{
 		Spawn:

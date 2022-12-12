@@ -399,7 +399,7 @@ ACTOR LightningBallC1 : AetheriusProjectileZSC
 	Scale 0.35
 	Speed 5
 	DamageType "Thunder"
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.50     
 	PROJECTILE
 	states
@@ -422,7 +422,7 @@ ACTOR LightningBallC2 : AetheriusProjectileZSC
 	+Noclip
 	Scale 0.28
 	Speed 5
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.50     
 	PROJECTILE
 	states
@@ -442,7 +442,7 @@ ACTOR LightningBallC2 : AetheriusProjectileZSC
 ACTOR LightningBallC1T : AetheriusProjectileZSC
 {
 	DamageType "Thunder"
-	RENDERSTYLE ADD
+	RenderStyle "Add"
 	Alpha 0.4
 	PROJECTILE
 	+Noclip
@@ -464,7 +464,7 @@ ACTOR GroundLightning : AetheriusProjectileZSC
 	Height 6
 	Speed 20
 	//Damage 6
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.40
 	ReactionTime 20//53
 	SEESOUND "thor/attackr1"
@@ -498,7 +498,7 @@ ACTOR GroundTrail : AetheriusProjectileZSC
 	DamageType "Thunder"
 	Radius 2
 	Height 3
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.20
 	ReactionTime 20//49
 	PROJECTILE
@@ -525,7 +525,7 @@ ACTOR GroundSmoke : AetheriusProjectileZSC
 	Height 12
 	Speed 15
 	Damage 1 // 5
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.30
 	SEESOUND "thor/smoke"
 	PROJECTILE
@@ -557,7 +557,7 @@ ACTOR SmokeLightning : AetheriusProjectileZSC
 	Height 16
 	Speed 20
 	Damage 2 //5
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.40
 	Scale 0.75
 	SEESOUND "thor/spawnl"
@@ -584,7 +584,7 @@ ACTOR LightningBallS : AetheriusProjectileZSC
 	Height 16
 	Speed 20
 	Damage 5
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.40
 	Scale 0.75
 	SEESOUND "thor/spawnl"
@@ -612,7 +612,7 @@ ACTOR LightningRod1 : AetheriusProjectileZSC
 	Height 24
 	Speed 30
 	Damage (3*random(1,8))
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.50
 	Scale 0.75
 	SEESOUND "thor/spawnl"
@@ -655,7 +655,7 @@ ACTOR LightningBallL : AetheriusProjectileZSC
 	Height 30
 	Speed 12
 	Damage 20
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.75
 	ReactionTime 6
 	SEESOUND "thor/attackr3"
@@ -717,7 +717,7 @@ ACTOR MiniLightningPuff : AetheriusProjectileZSC
 	Speed 14
 	Damage 1
 	PROJECTILE
-	RENDERSTYLE ADD
+	RenderStyle "Add"
 	Alpha 0.67
 	SEESOUND "thor/smoke"
 	Decal PlasmaScorchLower
@@ -740,7 +740,7 @@ ACTOR GroundLightningTracer : AetheriusProjectileZSC
 	Height 6
 	Speed 10
 	Damage 6
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.40
 	ReactionTime 15//34
 	SEESOUND "thor/attackr2"
@@ -788,7 +788,7 @@ ACTOR LightningRod3 : AetheriusProjectileZSC
 	Height 8
 	Damage 5
 	Speed 20
-	RENDERSTYLE Add
+	RenderStyle "Add"
 	Alpha 0.40
 	SEESOUND "thor/spawnl"
 	DEATHSOUND "thor/hitl"
